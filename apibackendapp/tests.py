@@ -6,7 +6,7 @@ from django.urls import reverse
 from .serializers import EmployeeSerializer
 from rest_framework import status
 
-# Create your tests here.
+# Create your wonderful tests here.
 class EmployeeViewSetTest(APITestCase):
     def setUp(self):
         self.department =Department.objects.create(DepartmentName="HR")
